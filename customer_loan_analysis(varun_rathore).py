@@ -116,7 +116,6 @@ sns.distplot(loanData['annual_inc'],color='violet');
 
 # categorical variables :
 def univariate(df,col,vartype,hue =None):
-    
     if vartype == 1:
         temp = pd.Series(data = hue)
         fig, ax = plt.subplots()
